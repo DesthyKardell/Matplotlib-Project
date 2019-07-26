@@ -1,18 +1,75 @@
-# The Power of Plots
-
-## Background
-
-What good is data without a good plot to tell the story?
-
-Leveraging Python Matplotlib and applying it to some real-world situations. 
-
-## Pymaceuticals Inc
+# Analysis for Mouse Treatment (Pymaceuticals, Inc.) 
 
 ![Laboratory](Images/Laboratory.jpg)
 
-While your data companions rushed off to jobs in finance and government, you remained adamant that science was the way for you. Staying true to your mission, you've since joined Pymaceuticals Inc., a burgeoning pharmaceutical company based out of San Diego, CA. Pymaceuticals specializes in drug-based, anti-cancer pharmaceuticals. In their most recent efforts, they've since begun screening for potential treatments to squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
+Pymaceuticals Inc. is a fictitious burgeoning pharmaceutical company based out of San Diego, CA. It specializes in drub-based, anti-cancer pharmaceuticals. In their most recent efforts, they've since begun screening for potential treatments to squamous cell carcinoma (SCC), a commonly occurring form of skin cancer. 
 
-As their Chief Data Analyst, you've been given access to the complete data from their most recent animal study. In this study, 250 mice were treated through a variety of drug regimes over the course of 45 days. Their physiological responses were then monitored over the course of that time. Your objective is to analyze the data to show how four treatments (Capomulin, Infubinol, Ketapril, and Placebo) compare.
+I have been given access to the complete data from their most recent animal study. In this study, 250 mice were treated through 10 drug regimes over the course of 45 days. Their physiological responses were then monitored over the course of that time.
+
+In this project, my main objective is to analyze the data to show how 4 drug treatements (Capomulin, Infubinol, Ketapril, and Placebo) regarding their impact on the mice. 
+
+The two datasets used are:
+
+ * [Mouse_Drug_Data](data/mouse_drug_data.csv) showing the Mouse ID and the corresponding drug
+ * [Clinical_Trial_Data](data/clinicaltrial_data.csv) showing the drug impact over the 45 days by Mouse
+
+## Technologies Used
+   * Pandas
+   * Numpy
+   * Matplotlib
+   
+## Summary of Main Steps and relevant Outputs
+  1. **Loaded CSV Files and merged them into a single dataset**
+
+  2. **Tumor Response to Treatment Analysis:** 
+  
+    * Analysis of Mean of Tumor Volume by Drug throughout the 45 days. Only showing the first 5 results
+  
+     ![Volume_Tumor_Mean](Images/Volume-Tumor-Mean-Pivot.jpg)
+     
+    * Analysis of Standard Error of Tumor Volume by Drug throughout the 45 days. Only showing the first 5 results
+  
+     ![Volume_Tumor_SEM](Images/Volume-Tumor-SEM-Pivot.jpg)
+     
+
+  3. **Player Count:**  Finding a unique count of Players as some players had more than 1 purchase
+  
+  ![Player_Count](Images/Player_Count.jpg)
+
+  4. **Overall Purchasing Analysis:** Doing an overall purchasing Analysis
+  
+  ![Purchasing_Analysis](Images/Purchasing_Analysis.jpg)
+
+  5. **Gender Demographics:** Finding Count and Percentage of Players by Gender 
+  
+  ![Gender_Demo](Images/Gender_Demo.jpg)
+
+  6. **Purchasing Analysis by Gender:** Doing an overall purchasing Analysis by Gender
+  
+  ![Purchasing_Analysis_Gender](Images/Purchasing_Analysis_Gender.jpg)
+
+  7. **Age Demographics:** After establishing bins for the ages of playes, I came up with the below output
+  
+  ![Age_Demo](Images/Age_Demographics.jpg)
+
+  8. **Purchasing Analysis by Age Group:** Leveraging Bins created, I came up with the following outputs
+  
+  ![Purchasing_Analysis_Age](Images/Purchasing_Analysis_Age.jpg)
+
+  9. **Top Spenders:** Identifying the the top 5 spenders and sorting in descending order
+  
+  ![Top_Spenders](Images/Top_Spenders.jpg)
+
+  10. **Most Popular Items:** Identifying the 5 most popular items by purchase count
+  
+  ![Popular_Items](Images/Popular_Items.jpg)
+
+  11. **Most Profitable Items:** Identifying the 5 most profitable items by total purchase value
+  
+  ![Profitable_Items](Images/Profitable_Items.jpg)
+
+## Conclusions
+Based on the analysis, I see 3 main insights, which are listed at: [Observable_Trends.docx](Observable_Trends.docx).
 
 To do this you are tasked with:
 
