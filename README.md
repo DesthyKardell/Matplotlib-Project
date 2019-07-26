@@ -39,7 +39,7 @@ The two datasets used are:
   
    * Analysis of Mean of Mestatic Sites by Drug throughout the 45 days. Only showing the first 5 results
    
-   ![Mestatic_Sites_Mean](Images/Mestatic-Sites-Mean-Pivot.jpg)
+   ![Mestatic_Sites_Mean](Images/Metastatic-Sites-Mean-Pivot.jpg)
    
    * Analysis of Standard Error of Metastatic Sites by Drug throughout the 45 days. Only showing the first 5 results
    
