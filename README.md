@@ -6,7 +6,7 @@ Pymaceuticals Inc. is a fictitious burgeoning pharmaceutical company based out o
 
 I have been given access to the complete data from their most recent animal study. In this study, 250 mice were treated through 10 drug regimes over the course of 45 days. Their physiological responses were then monitored over the course of that time.
 
-In this project, my main objective is to analyze the data to show how 4 drug treatements (Capomulin, Infubinol, Ketapril, and Placebo) regarding their impact on the mice. 
+In this project, my main objective is to analyze the data for 4 drug treatements (Capomulin, Infubinol, Ketapril, and Placebo) regarding their impact on the mice. 
 
 The two datasets used are:
 
